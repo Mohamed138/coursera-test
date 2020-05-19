@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+</head>
+<link rel="stylesheet" href="https://github.com/Alkesh244/coursera-test/blob/master/mod2_solution/css/style.css">
+<body>
+    <h1>Our Menu</h1>
 
-You can use the [editor on GitHub](https://github.com/Mohamed138/coursera-test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mohamed138/coursera-test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    <div class="row">
+      <div class="col-lg-1 col-md-1 col-sl-1">
+          <div class="container">
+              <p class="heading bg-red">Hello</p>
+              <p class="text">Section title region: Each section should have a section title region that is always
+                  positioned at the top right corner of the section no matter the view (desktop, tablet or mobile).
+                  Copy the titles from the mockup illustration.
+              </p>
+          </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sl-2">
+          <div class="container">
+              <p class="heading bg-blue">Namaskar</p>
+              <p class="text">Section title region: Each section should have a section title region that is always
+                  positioned at the top right corner of the section no matter the view (desktop, tablet or mobile).
+                  Copy the titles from the mockup illustration (i.e., Chicken, Beef, Sushi) or come up with your own.
+                  (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)
+              </p>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sl-3">
+          <div class="container">
+              <p class="heading bg-green">Bonjour</p>
+              <p class="text">Section title region: Each section should have a section title region that is always
+                  positioned at the top right corner of the section no matter the view (desktop, tablet or mobile).
+                  Copy the titles from the mockup illustration (i.e., Chicken, Beef, Sushi) or come up with your own.
+                  (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)
+              </p>
+          </div>
+      </div>
+    </div>
+</body>
+</html>
